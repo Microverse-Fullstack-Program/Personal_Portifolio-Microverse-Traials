@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    justify-content:flex-end;
+}
+
+#welcome-section{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+/*------Media Query------*/
+
+@media (max-width: 980px) {
+    html {
+      font-size: 58%;
+    }
+  }
